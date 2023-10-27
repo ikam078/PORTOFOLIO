@@ -260,11 +260,6 @@ span{
     font-weight: 500;
     padding: 3%;
 }
-
-.form{
-    grid-area: form;
-}
-
 .info{
     grid-area: info;
 }
@@ -500,6 +495,7 @@ span{
 @media screen and (max-width:426px){
     .home-image {
         width: 370px;
+        margin-top: 40px;
     }
     .home {
         background: #031540;
@@ -528,11 +524,31 @@ span{
     .image-project img{
         width: 400px;
     }
+    .about {
+        height: 880px;
+    }
     .about-text{
-        width: 500px;
+        width: 410px;
     }
     .about-text h5 h2 {
         margin-bottom: 10px;
     }
-    
+    .contactUS{
+        position: relative;
+        width: 100%;
+        padding:10px;
+        background-color: #031540;
+    }
+}
+@media screen and (max-width: 376px) {
+    .about-text{
+        width: 350px;
+    }
+    .project{
+        height: 550px;
+    }
+    .image-project img {
+        width: 360px;
+        padding: 5px;
+    }
 }
